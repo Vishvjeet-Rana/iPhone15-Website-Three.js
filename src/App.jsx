@@ -8,6 +8,7 @@ function App() {
         <h2 className=" text-6xl underline font-extrabold text-this_is_teal">
           wah wah kya baat hai
         </h2>
+        <h3>hello</h3>
       </div>
     </>
   );
