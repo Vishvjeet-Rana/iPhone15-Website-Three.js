@@ -41,7 +41,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="w-full nav-height bg-black relative">
+    <section className="w-full nav-height bg-black relative overflow-hidden">
       <div className="h-5/6 w-full flex-center flex-col">
         <p id="heroTitle" className="hero-title">
           iPhone 15 Pro
