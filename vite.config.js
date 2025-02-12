@@ -10,7 +10,7 @@ export default defineConfig({
     outDir: "./docs", // Specify the output directory
   },
 
-  // build: {
+  // //build: {
   //   sourcemap: true,
   // },
 });
