@@ -5,8 +5,12 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [tailwindcss(), react()],
-
+  base: "./", // Add a leading and trailing slash
   build: {
-    sourcemap: true,
+    outDir: "./docs", // Specify the output directory
   },
+
+  // build: {
+  //   sourcemap: true,
+  // },
 });
