@@ -8,7 +8,7 @@ export default defineConfig({
   base: "/gsap_with_threejs/", // Ensure a trailing slash
 
   build: {
-    outDir: "./docs", // Output directory
+    outDir: "docs", // Output directory
     sourcemap: true, // Enable source maps
   },
 
