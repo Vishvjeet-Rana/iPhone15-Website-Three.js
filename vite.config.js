@@ -5,11 +5,10 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [tailwindcss(), react()],
-  base: "/gsap_with_threejs/", // Ensure a trailing slash
-
+  base: "/iPhone15-Website-Three.js/",
   build: {
-    outDir: "./docs", // Output directory
-    sourcemap: true, // Enable source maps
+    outDir: "./docs", // More explicit relative path
+    sourcemap: true,
   },
 
   // //build: {
