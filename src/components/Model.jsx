@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState, useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -8,9 +8,31 @@ import * as THREE from "three";
 import { Canvas } from "@react-three/fiber";
 import { View } from "@react-three/drei";
 import { models, sizes } from "../constants";
+import { animateWithGsapTimeline } from "../utils";
 
 const Model = () => {
   const [size, setSize] = useState("small");
+
+  const tl = gsap.timeline();
+
+  useEffect(() => {
+    // when moving from large to small
+    if (size === "large") {
+      animateWithGsapTimeline(tl, small, smallRotation, "#view1", "#view2", {
+        transform: "translateX(-100%)",
+        duration: 2,
+      });
+    }
+
+    // when moving from small to large
+    if (size === "small") {
+      animateWithGsapTimeline(tl, large, largeRotation, "#view2", "#view1", {
+        transform: "translateX(0)",
+        duration: 2,
+      });
+    }
+  }, [size]);
+
   const [model, setModel] = useState({
     title: "iPhone 15 Pro in Natural Titanium",
     color: ["#8f8a81", "#ffe7b9", "#6f6c64"],
@@ -33,7 +55,7 @@ const Model = () => {
     gsap.to("#heading", {
       opacity: 1,
       y: 0,
-      delay: 1.5,
+      delay: 0.8,
     });
   }, []);
 
@@ -86,7 +108,9 @@ const Model = () => {
 
           {/* titles and colors and model choosing section */}
           <div className="mx-auto w-full">
-            <p className="font-light text-sm text-center mb-5">{model.title}</p>
+            <p className="font-medium text-gray-50 text-sm text-center mb-5">
+              {model.title}
+            </p>
 
             {/* here is the color choosing section */}
             <div className="flex-center">
