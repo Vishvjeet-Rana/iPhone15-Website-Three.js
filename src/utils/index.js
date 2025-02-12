@@ -5,6 +5,9 @@ export const heroImg = hero;
 import { animateWithGsapTimeline } from "./animations";
 export { animateWithGsapTimeline };
 
+import { animationWithGsap } from "./animations";
+export { animationWithGsap };
+
 import hmv from "/assets/videos/hero.mp4";
 import smallmv from "/assets/videos/smallHero.mp4";
 import highlightFirstmv from "/assets/videos/highlight-first.mp4";
