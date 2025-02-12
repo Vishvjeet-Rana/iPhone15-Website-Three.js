@@ -4,5 +4,16 @@ import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [tailwindcss(), react()],
+  plugins: [
+    tailwindcss(),
+    react(),
+    sentryVitePlugin({
+      org: "jsm-9zy",
+      project: "javascript-react",
+    }),
+  ],
+
+  build: {
+    sourcemap: true,
+  },
 });
