@@ -62,12 +62,12 @@ const Model = () => {
   return (
     <section className="common-padding">
       <div className="screen-max-width">
-        <h1 id="heading" className="section-heading ml-2">
+        <h1 id="heading" className="section-heading ml-2 mt-2 mb-2">
           Take a closer look.
         </h1>
 
         <div className="flex flex-col items-center mt-5">
-          <div className="w-full h-[75vh] md:h-[90vh] overflow-hidden relative">
+          <div className="w-[80%] h-[75vh] md:h-[90vh] overflow-hidden relative bg-zinc-900 rounded-4xl">
             {/* this is for small models */}
             <ModelView
               index={1}
@@ -108,7 +108,7 @@ const Model = () => {
 
           {/* titles and colors and model choosing section */}
           <div className="mx-auto w-full">
-            <p className="font-medium text-gray-50 text-sm text-center mb-5">
+            <p className="font-medium text-gray-50 text-sm text-center mb-5 mt-2">
               {model.title}
             </p>
 
