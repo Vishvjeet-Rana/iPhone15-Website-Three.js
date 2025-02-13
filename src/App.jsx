@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Model from "./components/Model";
 import Features from "./components/Features";
 import HowItWorks from "./components/HowItWorks";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Model />
       <Features />
       <HowItWorks />
+      <Footer />
     </main>
   );
 }
