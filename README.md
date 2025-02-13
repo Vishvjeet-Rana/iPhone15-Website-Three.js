@@ -29,27 +29,27 @@ Webpack: Vite
 # ⚡ Installation (Run Locally)
 Want to check it out on your system? Follow these steps:
 
-## 1️⃣ Clone the repository:
+## _1️⃣ Clone the repository:_
 ```
 git clone https://github.com/Vishvjeet-Rana/iPhone15-Website-Three.js.git
 ```
 
-## 2️⃣ Navigate to the project directory:
+## _2️⃣ Navigate to the project directory:_
 ```
 cd iPhone15-Website-Three.js
 ```
 
-## 3️⃣ Install dependencies:
+## _3️⃣ Install dependencies:_
 ```
 npm install
 ```
 
-## 4️⃣ Run the development server:
+## _4️⃣ Run the development server:_
 ```
 npm run dev
 ```
 
-## 5️⃣ Open http://localhost:5173 in your browser.
+## _5️⃣ Open http://localhost:5173 in your browser._
 
 # 🎮 How to Use?
 --> Hover and interact with the 3D iPhone model for a realistic Apple-like experience.
@@ -60,20 +60,19 @@ npm run dev
 
 --> You can play, pause and restart the videos.
 
-# 📸 Screenshots & GIFs
-To add visuals:
+# 📸 Screenshots 
+## _Some Screenshots from my site to give you an idea.😊_
 
-Take a screenshot: Press Win + Shift + S on Windows or Cmd + Shift + 4 on macOS.
-Create a GIF: Use ScreenToGif or Kap.
-Add to README: Upload images to GitHub, then insert like this:
-markdown
-Copy
-Edit
-![Website Preview](https://your-image-link.png)
+![Screenshot 2025-02-13 165146](https://github.com/user-attachments/assets/01185657-7f17-4a8f-86e7-0e4af6a13cb6)
+
+![Screenshot 2025-02-13 165213](https://github.com/user-attachments/assets/6b30a697-4730-42e7-8459-6289e035d2f4)
+
+![Screenshot 2025-02-13 165955](https://github.com/user-attachments/assets/2f755a65-3674-4a05-84d0-3289faaac8af)
+
 
 # 📬 Hire Me 👇
-📌 LinkedIn: https://www.linkedin.com/in/vishvjeet-rana/
+📌 _LinkedIn:_ https://www.linkedin.com/in/vishvjeet-rana/
 
-🐦 Twitter: https://x.com/RVishvjeet_
+🐦 _Twitter:_ https://x.com/RVishvjeet_
 
-✉  Email: aryanrana62366@gmail.com
+✉  _Email:_ aryanrana62366@gmail.com
