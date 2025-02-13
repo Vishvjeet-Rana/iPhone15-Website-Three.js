@@ -242,9 +242,12 @@
 
 @utility hiw-video {
   position: absolute;
-  width: 95%;
-  height: 90%;
-  border-radius: 56px;
+  top: 50%; /* ✅ Center it vertically */
+  left: 50%; /* ✅ Center it horizontally */
+  transform: translate(-50%, -50%); /* ✅ Ensure perfect centering */
+  width: 95%; /* ✅ Adjust width to better fit inside the iPhone screen */
+  height: 90%; /* ✅ Adjust height for proper scaling */
+  border-radius: 40px; /* ✅ Reduce border radius for better alignment */
   overflow: hidden;
 }
 
