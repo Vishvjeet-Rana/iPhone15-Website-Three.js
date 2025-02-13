@@ -30,16 +30,24 @@ Webpack: Vite
 Want to check it out on your system? Follow these steps:
 
 ## 1️⃣ Clone the repository:
+```
 git clone https://github.com/Vishvjeet-Rana/iPhone15-Website-Three.js.git
+```
 
 ## 2️⃣ Navigate to the project directory:
+```
 cd iPhone15-Website-Three.js
+```
 
 ## 3️⃣ Install dependencies:
+```
 npm install
+```
 
 ## 4️⃣ Run the development server:
+```
 npm run dev
+```
 
 ## 5️⃣ Open http://localhost:5173 in your browser.
 
