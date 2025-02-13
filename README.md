@@ -73,6 +73,6 @@ npm run dev
 # 📬 Hire Me 👇
 📌 _LinkedIn:_ https://www.linkedin.com/in/vishvjeet-rana/
 
-🐦 _Twitter:_ https://x.com/RVishvjeet_
+🐦 _Twitter:_ [https://x.com/RVishvjeet_](https://x.com/RVishvjeet_)
 
 ✉  _Email:_ aryanrana62366@gmail.com
